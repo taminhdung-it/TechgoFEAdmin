@@ -115,10 +115,12 @@ export function Sidebar() {
       }`}
     >
       {/* Logo */}
-      <div className="flex items-center gap-3 px-4 h-14 border-b border-slate-700/60 shrink-0">
-        <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center font-black text-sm shrink-0">
-          T
-        </div>
+      <div className="flex items-center gap-[3px] px-3 h-14 border-b border-slate-700/60 shrink-0 overflow-hidden">
+        <img
+          src="https://res.cloudinary.com/dgfwcrbyg/image/upload/v1788495477/ChatGPT_Image_11_17_41_4_thg_9_2026_ttogsp.png"
+          alt="TechGo Logo"
+          className="h-10 w-auto shrink-0"
+        />
         {!collapsed && (
           <span className="font-bold text-sm truncate text-white">TechGo Admin</span>
         )}
